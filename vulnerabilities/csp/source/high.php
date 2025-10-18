@@ -1,5 +1,5 @@
 <?php
-$headerCSP = "Content-Security-Policy: script-src 'self'";
+$headerCSP = "Content-Security-Policy: default-src 'self'; script-src 'self'";
 
 header($headerCSP);
 
